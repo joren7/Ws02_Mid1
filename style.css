@@ -4,15 +4,16 @@ background-image:url(images/background\ image.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
+font-size: 28px;
 }
 header{
-padding: 10px;
+padding: 20px;
 text-align: center;
-font-family: Arial,Verdana, sans-serif;
 }
 h1{
 font-size: 90px;
 color: blue;
+font-family: Arial, Helvetica, sans-serif;
 }
 header img{
 border-radius: 174px;
@@ -21,12 +22,12 @@ overflow: hidden;
 border: 18px solid #FCC64C;
 }
 .content{
-max-width: 800px;
+max-width: 950px;
 margin: 0 auto;
-padding: 15px;
+padding: 10px;
 }
 p.caption{
-font-size: 16px;
+font-size: 24px;
 color: black;
 font-style: italic;
 }
@@ -34,9 +35,10 @@ ul{
 list-style: none;
 padding: 0;
 margin: 0;
+text-align: center;
 }
 a{
-font-size: 24px;
+font-size: 32px;
 color: red;
 text-decoration: none;
 }
@@ -46,12 +48,12 @@ text-decoration: none;
     border: 5px solid #62f854;  
     border-radius: 80px; 
     box-shadow: 10px 10px 10px #f39e01;
-    
+    align-content: center;
 }
 .image-container :hover {
     transform: scale(1.1);
     filter: grayscale(0%);
-
+    
 }
 
 footer{
@@ -61,6 +63,8 @@ background-color: #75EBF1;
 }
 footer ul{
 text-align: center;
+font-size: 24px;
+
 }
 footer ul li{
 display: inline-block;
